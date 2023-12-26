@@ -1,0 +1,22 @@
+@import "./__list/_list";
+@import "./__button/_button";
+@import "./__item/_item";
+@import "./__link/_link";
+@import "./__logo/_logo";
+@import "./__contacts/_contacts";
+@import "./__btn-container/_btn-container";
+@import "./__container/_container";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .header__container {
+    display: none;
+  }
+}

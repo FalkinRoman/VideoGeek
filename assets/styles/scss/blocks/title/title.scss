@@ -1,0 +1,16 @@
+.title {
+  color: $lightGray;
+  font-size: 28px;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .title {
+    font-size: 20px;
+  }
+}

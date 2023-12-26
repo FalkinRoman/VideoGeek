@@ -1,0 +1,14 @@
+@import "./__text/studio__text.scss";
+@import "./__gallery/studio__gallery.scss";
+
+.studio {
+  background: url("../../img/main/background.png") 0 35% no-repeat;
+  background-size: 17%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: $tablet-width) {
+  .studio {
+    background: none;
+  }
+}

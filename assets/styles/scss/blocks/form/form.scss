@@ -1,0 +1,48 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em;
+    box-sizing: border-box;
+
+    .form__item {
+        border: 1px solid $lightGray;
+        border-radius: 3px;
+        background-color: $gray;
+        width: 80%;
+        padding: 1em;
+        margin: 1.5em auto;
+        color: $lightGray;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    p {
+        margin: 0.5em auto 1.5em auto;
+        width: 80%;
+        font-size: 9px;
+        font-weight: 300;
+        opacity: 50%;
+    }
+}
+
+@media screen and (max-width: $mobile-width) {
+    .modal__content {
+
+        width: 90%;
+    }
+
+    .form {
+        font-size: 12px;
+
+        .form__item {
+            width: 70%;
+            padding: 1em;
+            margin: 0.7em auto;
+        }
+
+
+    }
+}

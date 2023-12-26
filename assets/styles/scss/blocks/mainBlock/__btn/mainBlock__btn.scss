@@ -1,0 +1,20 @@
+.mainBlock__btn {
+  margin-top: 2.3em;
+  width: 85%;
+
+  .btnMargin {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .mainBlock__btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: $mobile-width) {
+  .mainBlock__btn {
+    display: none !important;
+  }
+}

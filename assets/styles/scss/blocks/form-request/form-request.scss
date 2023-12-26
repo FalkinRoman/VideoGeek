@@ -1,0 +1,13 @@
+@import "./__btn/_btn";
+@import "./__text/_text";
+
+.form-request {
+  margin: 8em auto;
+  text-align: center;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .form-request {
+    margin: 8em 2rem;
+  }
+}

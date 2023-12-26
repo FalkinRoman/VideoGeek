@@ -1,0 +1,14 @@
+.btn-main {
+  background-color: $purple;
+  font-family: inherit;
+  border: 1px solid $purple;
+  border-radius: 3px;
+  color: inherit;
+  transition: background-color 0.3s linear;
+  cursor: pointer;
+
+
+  &:hover {
+    background-color: transparent;
+  }
+}
